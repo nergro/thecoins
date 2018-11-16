@@ -1,2 +1,2 @@
 # thecoins
-Specialized wordpress theme for thecoins.eu website
+Specialized wordpress theme for https://thecoins.eu/ website
