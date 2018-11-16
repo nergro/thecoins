@@ -1,0 +1,779 @@
+/*
+Theme Name: The Coins Theme
+Author: Nerijus Gromas
+Version: 1.0
+*/
+
+
+
+/* ---- Main ---- */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'DinPro', sans-serif;
+  color: #222;
+  box-sizing: border-box; 
+  
+}
+.single {
+	margin-top: 45px;
+}
+
+/* ---- Navigation bar ---- */
+
+.navbar {
+  position: fixed;
+	background: #fff;
+}
+.navbar-nav li {
+  white-space: nowrap;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+.imglogo {
+  width: 130px; 
+  height: 40px;
+  
+}
+#navbarCollapse {
+	text-align: right;
+	padding-right: 20px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #169b49;
+}
+
+/* ---- Carousel ----*/
+.carousel-caption button {
+	background: #0077ff;
+	color: #fff;
+}
+hr.hrstyle {
+  border: 0;
+  width: 80%;
+  color: #fff;
+background-color: #fff;
+height: 2px;
+}
+
+.carousel img {
+  width: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-40%);
+}
+.carousel-caption h1 {
+  font-size: 450% !important;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+  font-family: 'DinPro', sans-serif;
+}
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+.carousel-caption h4 {
+  font-size: 180%;
+font-family: 'DinPro', sans-serif;
+}
+.carousel-caption .gettickets {
+  width: 50%;
+  
+   font-family: Delicious;
+   border: 0;
+}
+.carousel-caption .gettickets:hover {
+  background: #564f4f;
+  border: 0;
+}
+
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #563d7c;
+}
+.btn-primary:hover {
+  background-color: #999999;
+  border: 1px solid #fff;
+}
+.smallbuttons {
+      background: #f2f7ff;
+}
+
+/* ---- About ---- */
+
+.listas {
+  text-align: left;
+}
+.apie {
+  background-color: rgb(255, 255, 255);
+  padding-top: 60px;
+  margin-top: -60px;
+}
+.apie hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.spkrs {
+  background-color: #fff;
+}
+#abouttext {
+	font-size: 24px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+/* ---- Count-to ---- */
+#fh5co-counter,
+.fh5co-bg {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#fh5co-counter .display-tc {
+  display: table-cell !important;
+  vertical-align: middle;
+}
+
+#fh5co-counter .display-tc h1,
+#fh5co-counter .display-tc h2{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#fh5co-counter .display-tc h1{
+  margin-bottom: 20px;
+  font-size: 54px;
+  line-height: 1.3;
+  font-weight: 300;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-counter .display-tc h1{
+    font-size: 30px;
+  }
+}
+
+#fh5co-counter .display-tc h2{
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#fh5co-counter .display-tc .btn{
+  padding: 15px 30px;
+  color: #fff;
+  border: none !important;
+  font-size: 18px;
+}
+
+#fh5co-counter .display-tc {
+  background: rgba(9, 198, 171, 0.8);
+  border: none;
+}
+
+#fh5co-counter .display-tc {
+  background: rgba(9, 198, 171, 0.9) !important;
+  color: #fff !important;
+}
+#fh5co-header .display-tc .btn:hover, #fh5co-header .display-tc .btn:focus,
+#fh5co-counter .display-tc .btn:hover,
+#fh5co-counter .display-tc .btn:focus{
+  color: #fff !important;
+}
+
+#fh5co-counter .display-tc .btn.btn-learn{
+  background: rgba(234, 146, 21, 0.8);
+  border: none;
+}
+
+#fh5co-counter .display-tc .btn.btn-learn:hover,
+#fh5co-counter .display-tc .btn.btn-learn:focus{
+  background: rgba(234, 146, 21, 0.9) !important;
+  color: #fff !important;
+}
+
+#fh5co-counter .display-tc .btn:hover{
+  background: #EA9215 !important;
+  -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+  -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+  box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+}
+
+#fh5co-counter .display-tc .form-inline .form-group{
+  width: 100% !important;
+  margin-bottom: 10px;
+}
+
+#fh5co-counter .display-tc .form-inline .form-group .form-control{
+  width: 100%;
+  background: #fff;
+  border: none;
+}
+
+#fh5co-counter {
+  padding: 3em 0;
+  clear: both;
+}
+
+#fh5co-steps {
+  clear: both;
+  padding-bottom: 7em;
+}
+
+.fh5co-counters {
+  padding: 3em 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.fh5co-counters .counter-wrap {
+  border: 1px solid red !important;
+}
+.fh5co-counters .fh5co-counter {
+  font-size: 44px;
+  display: block;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: 'DinPro', sans-serif;
+  width: 100%;
+  font-weight: 400;
+  margin-bottom: .3em;
+}
+.fh5co-counters .fh5co-counter-label {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 5px;
+  margin-bottom: 2em;
+  display: block;
+}
+
+#laikasliko {
+	background-color: rgb(38, 117, 184);
+}
+/* ---- Speakers ---- */
+#apple {
+	width: 90px;
+	height: 110px;
+	margin-top: -30px;
+}
+#speakerhr {
+    border: none;
+    height: 3px;    
+    color: #9fa1a3;
+    background-color: #9fa1a3;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.spk {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+.spk h1{
+  padding: 50px;
+}
+.demo{ background: #262526; }
+.our-team{
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+.our-team .pic{
+    display: inline-block;
+    width: 60%;
+    height: 60%;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 25px;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic{
+    background: #2675b8;
+    border-radius: 50%;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.our-team .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2e282a;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #17bebb;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .social li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    transition: all 0.5s ease 0s;
+}
+.fa-linkedin:hover, .fa-google-plus:hover, .fa-twitter:hover, .fa-facebook:hover, .fa-instagram:hover, fa-youtube:hover {
+  color:#d5d5d5; 
+}
+.fa-facebook {
+  color: #3b5998
+}
+.fa-twitter {
+  color:#00aced;
+}
+.fa-google-plus {
+  color:#dd4b39;
+}
+.fa-linkedin {
+  color:#517fa4;
+}
+.fa-instagram {
+  color: #e95950;
+}
+.fa-youtube {
+	color: #ff0000;
+}
+
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+
+.socia {
+  font-size: 2em;
+}
+.front_speaker_card {
+margin: 0 auto; 
+  float: none; 
+  margin-bottom: 10px; 
+}
+
+/* ---- Single speaker ---- */
+.jumbotron {
+  height:200px;
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+}
+.jumbotron h1, .jumbotron p {
+  color: white;
+}
+
+.singlespeakerimg {
+  display: flex;
+  justify-content: center;
+}
+.singlespeakerimg img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+/* ---- Latest news ---- */
+
+/* ---- Ambassadors ---- */
+#ambaimg {
+	width: 300px;
+	height: 300px;
+}
+/* Countdown*/
+#timeevent {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.countdown {
+  display: flex;
+justify-content: center;
+}
+
+
+/* ---- Video clip ---- */
+#clip {
+  padding-top: 50px;
+}
+.video-container { 
+  position: relative; 
+  padding-bottom: 45.25%; 
+  height: 0; 
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+  
+.video-container iframe, .video-container object, .video-container embed, .video-container video { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ---- Sponsors ---- */
+.alogo:hover {
+	opacity: .4;
+}
+.sponslogo .img-fluid {
+  
+}
+#sptitle {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 300%;
+}
+#sponsors h1 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.spons:hover {
+  opacity:.2;
+}
+
+/* ---- Footer ---- */
+#footerhr {
+    border: none;
+    height: 1px;    
+    color: #fff;
+    background-color: #fff;
+}
+.footsoc a {
+	text-decoration: none !important;
+}
+.footlogo {
+  max-width: 300px;
+  max-height: 150px;
+}
+.footer1 {
+  padding-top: 70px;
+}
+.contacts .organizer {
+  max-width: 200px;
+  max-height: 150px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.footernavbar {
+    display: flex;
+justify-content: center;
+padding-top: 10px;
+}
+.copyright {
+  background: #2d2d2d;
+}
+footer {
+  background-color: #3f3f3f;
+  color:#d5d5d5;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+footer a {
+  color: #d5d5d5;
+}
+.contacts {
+  text-align: center;
+}
+.soc {
+  font-size: 3em;
+}
+
+#follow {
+	padding-top: 24px;
+}
+
+#coinsfooter {
+	width: 100%;
+	padding-top: 5px;
+}
+
+/* -----Media Queries ----- */
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  .imglogo {
+  width: 130px; 
+  height: 60px;
+}
+	  .carousel-caption h1{
+  font-size: 450% !important;
+}
+	#description {
+		font-size: 200%;
+	}
+	
+	.carousel-caption .gettickets {
+  width: 50%;
+}
+	#ticketsshidden {
+		display: none;
+	}
+	
+	.sponslogo .img-fluid {
+  max-width: 250px;
+  max-height: 150px;
+}
+	#sptitle {
+  font-size: 300%;
+}
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	 .carousel-caption h1{
+  font-size: 400% !important;
+}
+	#description {
+		font-size: 140%;
+	}
+	#city, #year {
+		font-size: 160%;
+	}
+  .imglogo {
+  width: 180px; 
+  height: 60px;
+}
+	.carousel-caption .gettickets {
+  width: 60%;
+}
+	#ticketsshidden {
+		display: none;
+	}
+	
+	.sponslogo .img-fluid {
+  max-width: 250px;
+  max-height: 150px;
+}
+	#sptitle {
+  font-size: 280%;
+}
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	 .carousel-caption h1{
+  font-size: 350% !important;
+}
+	#description {
+		font-size: 180%;
+	}
+	#city, #year {
+		font-size: 160%;
+	}
+  .imglogo {
+  width: 130px; 
+  height: 50px;
+}
+	.carousel-caption .gettickets {
+  width: 75%;
+}
+	#ticketsshidden {
+		display: none;
+	}
+	
+	.sponslogo .img-fluid {
+  max-width: 220px;
+  max-height: 120px;
+}
+  #sptitle {
+  font-size: 250%;
+}
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+h1 {
+		font-size: 270% !important;
+	}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	 .carousel-caption h1{
+  font-size: 400% !important;
+}
+	#description {
+		font-size: 180%;
+	}
+	#city, #year {
+		font-size: 160%;
+	}
+  .imglogo {
+  width: 120px; 
+  height: 50px;
+}
+  .carousel-caption .gettickets {
+  width: 80%;
+}
+	#ticketsshidden {
+		display: none;
+	}
+	.sponslogo .img-fluid {
+  max-width: 220px;
+  max-height: 120px;
+}
+	  #sptitle {
+  font-size: 250%;
+}
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	h1 {
+		font-size: 250% !important;
+	}
+	html body {
+		margin-top: 35px;
+	}
+	
+	 .carousel-caption h1{
+  font-size: 250% !important;
+}
+	#description {
+		font-size: 140%;
+	}
+.imglogo {
+  width: 120px; 
+  height: 50px;
+}
+.carousel-caption .gettickets {
+  width: 90%;
+}
+	
+	
+	#city, #year {
+		font-size: 120%;
+	}
+	
+	#lnews {
+		display: none;
+	}
+	.sponslogo .img-fluid {
+  max-width: 200px;
+  max-height: 100px;
+}
+	 #sptitle {
+  font-size: 250%;
+}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	h1 {
+		font-size: 250% !important;
+	}
+	html body {
+		margin-top: 30px;
+	}
+	.carousel-caption {
+		top: 33%;
+	}
+  .imglogo {
+  width: 120px; 
+  height: 50px;
+}
+  
+  .carousel-caption h1{
+  font-size: 180% !important;
+}
+
+	#description {
+		font-size: 110%;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	#hrstyle {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	 #city, #year {
+		font-size: 50%;
+	}
+	.carousel-caption .gettickets {
+  width: 100%;
+		font-size: .4rem;
+}
+	
+	#lnews {
+		display: none;
+	}
+	.sponslogo .img-fluid {
+  max-width: 200px;
+  max-height: 100px;
+}
+	  #sptitle {
+  font-size: 250%;
+}
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+.sliderimg {
+  max-height: 100px;
+  max-width: 300px;
+}
+
+
+
+
